@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f17f718-d61c-46e7-958b-2356b9835d05" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xfnkt7D0YQagLOAEYNOuKwyRWY" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\guilherme.evangelist\git\brcomyamanframework\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="steps" />
+      <recent name="br.com.srbarriga.web.funcionalidades.usersutils" />
+      <recent name="br.com.srbarriga.web.funcionalidades.enums" />
+      <recent name="br.com.srbarriga.web.pages" />
+      <recent name="br.com.srbarriga.web.funcionalidades" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guilherme.evangelist\git\brcomyamanframework" />
+      <recent name="C:\Users\guilherme.evangelist\git\brcomyamanframework\src\test\java\resources\feature" />
+      <recent name="C:\Users\guilherme.evangelist\git\brcomyamanframework\src\main\resources" />
+      <recent name="C:\Users\guilherme.evangelist\git\brcomyamanframework\src\main\java\br\com\srbarriga" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: login">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/feature/login.feature" />
+      <option name="GLUE" value="br.com.srbarriga.utils.configuration steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="FrameWorkAutomacao" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FrameWorkAutomacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runTest" />
+      <option name="MAIN_CLASS_NAME" value="runTest.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: login" />
+        <item itemvalue="JUnit.RunTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f17f718-d61c-46e7-958b-2356b9835d05" name="Default Changelist" comment="" />
+      <created>1581446162408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581446162408</updated>
+      <workItem from="1581446166441" duration="7499000" />
+      <workItem from="1581600519770" duration="584000" />
+      <workItem from="1581601991705" duration="3115000" />
+      <workItem from="1584036500897" duration="2119000" />
+      <workItem from="1584043584384" duration="721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581615817470">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-375.-1080.1920.1050@0.0.1366.738" timestamp="1581615817470" />
+  </component>
+</project>
