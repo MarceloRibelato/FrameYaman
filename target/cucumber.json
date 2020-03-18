@@ -28,7 +28,7 @@
         "before": [
           {
             "result": {
-              "duration": 5585233000,
+              "duration": 12427677800,
               "status": "passed"
             },
             "match": {
@@ -43,9 +43,8 @@
         "after": [
           {
             "result": {
-              "duration": 366500,
-              "error_message": "java.lang.NullPointerException\r\n\tat br.com.srbarriga.utils.commons.BaseTest.generateEvidence(BaseTest.java:84)\r\n\tat br.com.srbarriga.utils.configuration.Hooks.afterScenarioWeb(Hooks.java:23)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
-              "status": "failed"
+              "duration": 5986561300,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.afterScenarioWeb(Scenario)"
@@ -57,11 +56,14 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 124187800,
+              "status": "passed"
             },
             "line": 12,
             "name": "que estou realizando o teste",
-            "match": {},
+            "match": {
+              "location": "EvidenceSteps.estouRealizandoOTeste(DataTable)"
+            },
             "rows": [
               {
                 "cells": [
@@ -86,20 +88,32 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3408781000,
+              "status": "passed"
             },
             "line": 15,
             "name": "realizo login com o usuario \"teste\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "teste",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.realizoLoginComUsuario(String)"
+            },
             "keyword": "Quando "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 385255400,
+              "status": "passed"
             },
             "line": 16,
             "name": "visualizo a mensagem de login com sucesso",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.visualizoAMensagemDeLoginComSucesso()"
+            },
             "keyword": "Entao "
           }
         ],
@@ -107,10 +121,6 @@
           {
             "line": 10,
             "name": "@login"
-          },
-          {
-            "line": 10,
-            "name": "@web"
           }
         ]
       }
@@ -119,6 +129,12 @@
     "description": "",
     "id": "login-na-aplicação",
     "keyword": "Funcionalidade",
-    "uri": "feature/login.feature"
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 7,
+        "name": "@web"
+      }
+    ]
   }
 ]

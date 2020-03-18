@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(monochrome = true, snippets = SnippetType.CAMELCASE, plugin = { "pretty",
-		"json:target/cucumber.json" }, features = { ".//src//test//" }, glue = {
-				"br.com.srbarriga.web","br.com.srbarriga.utils.configuration" },
+		"json:target/cucumber.json" }, features = { "src/test/feature" }, glue = {
+		"steps","br.com.srbarriga.utils.configuration" },
 
 //Limpar RunTest antes de subir
 
